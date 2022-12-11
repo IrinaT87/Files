@@ -28,8 +28,7 @@ def get_shop_list_by_dishes(cook_book, dishes, person_count):
                     # break
                     shop_list[ingridient['ingridient_name']]={'measure':ingridient['measure'],
                     'quantity':(int(ingridient['quantity'])*person_count)}
-                    # {'measure':ingridient['measure'],
-                    # 'quantity':(int(ingridient['quantity'])*person_count)}
+                    
                     
     print(shop_list)
-get_shop_list_by_dishes(cook_book, 'Фахитос', 5)
+get_shop_list_by_dishes(cook_book, 'Омлет', 3)
