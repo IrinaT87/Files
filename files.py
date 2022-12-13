@@ -1,4 +1,4 @@
-from pprint import pprint
+
 
 files={}
 with open('text/t1.txt', 'rt', encoding='utf-8') as f1, open('text/t2.txt', encoding='utf-8') as f2, open('text/t3.txt', encoding='utf-8') as f3:
